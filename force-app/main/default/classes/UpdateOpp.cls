@@ -1,6 +1,7 @@
 public class UpdateOpp {
     public void getOpp()
     {
+      System.debug('Changes for Sanjana Github Branch1');
      List<Opportunity> opp=[select Id,Name,CloseDate from Opportunity where CloseDate=Today];
        for(Opportunity opL:opp)
         {
